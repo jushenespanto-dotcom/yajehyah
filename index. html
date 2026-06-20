@@ -1,0 +1,14 @@
+#envelope {
+  position: relative; top: 150px;
+  width: 280px; height: 180px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  margin-left: auto; margin-right: auto;
+  background-color: #d9534f;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.letter:after {
+  content: ""; position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+}
